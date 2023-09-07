@@ -1,0 +1,74 @@
+.card--container {
+    width: 100%;
+    margin: 5px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    background-color:rgba(0, 0, 0, 0.05);
+    color: black;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.card-name{
+    font-size: 1rem;
+}
+
+.card-task{
+    font-size: 0.8rem;
+}
+
+.card-label {
+ width: 20%;
+ color: white;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.card-info  {
+    width: 40%;
+    text-align: center;
+}
+
+.past {
+    background-color: rgb(234, 234, 234);
+    color: rgb(152, 152, 152);
+    text-decoration-line: line-through;
+}
+.card-date {
+    width: 30%;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.card-delete {
+    width: 10%;
+    color: rgb(247, 97, 97);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    cursor:pointer;
+    border: none;
+    background: transparent
+}
+
+@media only screen and (min-width: 768px) {
+    .card--container{
+        width: 80%;
+    }
+    .card-name{
+        font-size: 1.2rem;
+    }
+    .card-task{
+        font-size: 0.9rem;
+    }
+    .card-date{
+        font-size: 0.9rem;
+    }
+    .card-info h2 {
+        padding-bottom: 5px;
+    }
+}

@@ -1,0 +1,38 @@
+.header-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+#title{
+    margin: 0 10px;
+    font-size: 14px;
+    color: #303748;
+}
+
+
+#social-media a{
+    margin: 0 5px;
+    font-size: 1.7rem;
+    color: #303748;
+}
+@media only screen and (min-width: 728px) {
+    #title{
+        font-size: 20px;
+    }
+    #social-media a{
+        font-size: 2.2rem;
+    }
+}
+@media only screen and (min-width: 992px){
+    #social-media a{
+        cursor:pointer;
+    }
+    #social-media a:hover{
+        color: #b3a9ff;
+    }
+
+}
