@@ -9,8 +9,8 @@ By making this page I learned the following:
 
 - Implementation and usage of React.
 - Props.
-- Hooks as (useState(), useEffect(), useRef(),.
-- DOM manipulation.
+- Hooks as (useState(), useEffect(), useRef().
+- JSX - DOM manipulation.
 
 <h2>Challenge</h2>
 <p>The most difficult challenge on this page was to transfer all the data between the Local Storage and the components and then render them.</p>
