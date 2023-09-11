@@ -8,7 +8,7 @@ function Header() {
   return (
     <div className="header-container">
       <div id="title">
-        <h1>Task App</h1>
+        <h1>React To Do List</h1>
       </div>
       <div id="social-media">
         <a href="https://www.facebook.com/antonio.giambrasb/"
